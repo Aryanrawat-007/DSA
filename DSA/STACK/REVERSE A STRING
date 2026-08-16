@@ -1,5 +1,23 @@
+Given an empty stack, design an algorithm and a program to reverse a string using this stack
+(with and without recursion).
+Input Format:
+The first line contains number of test cases, T.
+For each test case, there will be string of characters.
+Output Format:
+The output will have T number of lines. For each test case, output will be new reversed string.
+Sample:
+Input:
+3
+qwerty
+computerscience
+graphicerauniversity
+
+Output:
+ytrewq
+ecneicsretupmoc
+ytisrevinuarecihparg
+
 // without recursion
-/*
 #include<stdio.h>
 int stack[100];
 int top=-1,x;
