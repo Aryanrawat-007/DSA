@@ -1,6 +1,7 @@
-//Given an expression in the form of postfix representation, design an algorithm and a program to find result of this expression. 
-//INPUT= 2 3 1 * + 4 - 
-//OUTPUT= 1
+Given an expression in the form of postfix representation, design an algorithm and a program to find result of this expression. 
+INPUT= 2 3 1 * + 4 - 
+OUTPUT= 1
+
 #include<stdio.h>
 int stack[100],top=-1;
 void push(int x){
