@@ -1,3 +1,25 @@
+Given an expression string consisting of opening and closing brackets “{“,”}”,”(“,”)”,”[“,”]”,
+design an algorithm and a program to check whether this expression has balanced paranthesis or
+not.
+Input Format:
+The first line contains number of test cases, T.
+For each test case, there will be expression string.
+Output Format:
+The output will have T number of lines. For each test case, output will be “Balance”, if brackets
+are balanced otherwise print “Unbalanced”.
+Sample:
+Input:
+3
+{{(()())}}
+([][])(){(())}
+{()(()}
+
+Output:
+Balanced
+Balanced
+Unbalanced
+
+
 #include<stdio.h>
 char stack[100];
 int top=-1;
