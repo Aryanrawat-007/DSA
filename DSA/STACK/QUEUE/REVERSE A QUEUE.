@@ -1,3 +1,6 @@
+Design an algorithm and write a program to reverse a queue.
+
+
 #include<stdio.h>
 int queue[100],front=0,rear=-1;
 void enqueue(int str){
