@@ -40,3 +40,19 @@ int main() {
 
     return 0;
 }
+
+OUTPUT:
+ENTER DATA: 10
+Do you want to insert another element? (1 = yes, 0 = no): 1
+
+ENTER DATA: 20
+Do you want to insert another element? (1 = yes, 0 = no): 1
+
+ENTER DATA: 30
+Do you want to insert another element? (1 = yes, 0 = no): 1
+
+ENTER DATA: 40
+Do you want to insert another element? (1 = yes, 0 = no): 0
+
+Linked list: 10 40 30 20
+
