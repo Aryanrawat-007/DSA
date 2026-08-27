@@ -51,3 +51,11 @@ int main(){
 
     return 0;
 }
+ OUTPUT:
+ENTER NUMBER 5
+ENTER DATA 10
+ENTER DATA 20
+ENTER DATA 30
+ENTER DATA 40
+ENTER DATA 50
+After deleting alternate nodes: 10 -> 30 -> 50 -> NULL
