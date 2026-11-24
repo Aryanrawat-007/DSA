@@ -1,5 +1,23 @@
 #include<stdio.h>
 int graph[10][10],n,visited[10];
+// ITERATIVE
+    int graph[10][10],visted[10],stack[10],top=-1;
+    void dfs(int start,int n){
+        stack[top++]=start;
+        while(top!=-1){
+            int v=stack[top--];
+            if(visited[v]==0){
+                printf("%d",v);
+                visited[v]=1;
+            }
+            for(int i=n-1;i>=0;i--){
+                if(graph[v][i]==1 && visited[i]==0){
+                    stack[top++]=i;
+                }
+            }
+        }
+    }
+// RECURSIVE
 void DFS(int v){
     printf("%d",v);
     visited[v]=1;
