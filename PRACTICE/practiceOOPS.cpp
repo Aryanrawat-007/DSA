@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-/*class Customer{
+class Customer{
     protected:
     int billamount;
     public:
